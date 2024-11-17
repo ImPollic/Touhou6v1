@@ -1,9 +1,9 @@
 let mapa, jogador, fundo, inimigo, vidas = ['♥', '♥', '♥'];
 let desvioInt, menuTime, theme;
 function preload() {
-  fonteTouhou = loadFont('/assets/Logopixies-owwBB.ttf');
-  badApple = loadImage('/assets/badApple.gif');
-  theme = loadSound('/assets/MarisaTheme.mp3')
+  fonteTouhou = loadFont('./assets/Logopixies-owwBB.ttf');
+  badApple = loadImage('./assets/badApple.gif');
+  theme = loadSound('./assets/MarisaTheme.mp3')
 }
 
 //let pontos = [];
@@ -16,7 +16,7 @@ function setup() {
   jogador.prepararAtaque();
   inimigo = new Inimigo (width /2, 70);
   mapa = new Mapa ();
-  fundo = loadImage('/assets/skies.gif');
+  fundo = loadImage('./assets/skies.gif');
   theme.setVolume(0.15);
   theme.play();
   

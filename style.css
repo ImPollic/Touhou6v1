@@ -1,6 +1,6 @@
 @font-face {
   font-family: fonte-touhou;
-  src: url('./assets/Logopixies-owwBB.ttf');
+  src: url('/Touhou6v1/assets/Logopixies-owwBB.ttf');
 }
 * {
   font-family: fonte-touhou;

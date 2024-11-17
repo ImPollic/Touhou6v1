@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embodiment of the Scarlet Devil</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+  <body>
+  <div id="panel">
+    <div class="all" >
+      <h2 style="text-align: center;">TOUHOU PROJECT</h2>
+      <p id="texto" class="txt">HighScore <span>3486025487</span></p>
+      <p id="texto" class="txt">Score <span id="score">0</span</p>
+      <p id="texto" class="txt">Player <span>★★★★☆</span> </p>
+      <!--<p id="texto" class="txt">BomB <span>★★</span> </p>-->
+     
+      <p class="txt">POWER <span>MAX</span></p>
+      <!--<p class="txt">GRAZE <span>333</span></p>-->
+      <!--<p class="txt">POINT <span>958675</span></p>-->
+      <p class="txt">TIME <span id="proj">0/10000</span></p>
+      <div id="image-div">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Th06_game_logo.png" alt="cirnchess" width="150px" >
+      </div>
+      
+    </div>
+    
+    
+  </div>
+  <div id="buttons">
+    <div id="b1">
+      <button onmousedown="irDireita()" onmouseup="NAOirDireita()">⮞</button>
+      <button onmousedown="irEsquerda()" onmouseup="NAOirEsquerda()">⮜</button>
+      <button onmousedown="irCima()" onmouseup="NAOirCima()">⮝</button>
+      <button onmousedown="irBaixo()" onmouseup="NAOirBaixo()">⮟</button>
+    </div>
+    <div id="b2">
+      <p id="b2p">@IM_POLLIC</p>  
+    </div>
+  </div>
+    <script src="/classes/Menu.js"></script>
+    <script src="/classes/Feixes.js"></script>
+    <script src="/classes/Projetil.js"></script>
+    <script src="/classes/Jogador.js"></script>
+    <script src="/classes/Desvios.js"></script>
+    <script src="/classes/Mapa.js"></script>
+    <script src="/classes/Inimigo.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>

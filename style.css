@@ -1,0 +1,80 @@
+@font-face {
+  font-family: fonte-touhou;
+  src: url('/assets/Logopixies-owwBB.ttf');
+}
+* {
+  font-family: fonte-touhou;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  height: 100vh;
+  background-color: #111;
+}
+canvas {
+  display: block;
+  border: 2px solid white;
+}
+.all {
+  border: 2px solid white;
+  border-left: 0px;
+  border-bottom: 0px;
+  height: 500px;
+  width: 250px;
+  background-color: #111;
+  color: white;
+}
+span {
+  color: rgb(169, 33, 53)
+}
+.txt {
+  font-size: 0.6rem;
+  text-align: center;
+}
+#image-div {
+  display: flex;
+  justify-content: center;
+}
+#panel {
+  width: 660px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+#buttons {
+  width: 652px;
+  height: 50px;
+  border: 2px solid white;
+  border-top: 0px;
+  background-color: #111;
+  display: flex;
+}
+button {
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: #222;
+  font-size: 1.5rem;
+  border-top: none;
+  border-bottom: none;
+}
+#b1 {
+  width: calc(650px - 250px);
+  display: flex;
+  justify-content: space-evenly;
+  border-right: 2px solid white;
+}
+#b2 {
+  width: 250px;
+  color: white;
+}
+#b2p {
+  text-align: center;
+  opacity: 0.2;
+}

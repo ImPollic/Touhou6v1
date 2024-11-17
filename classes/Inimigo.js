@@ -4,7 +4,7 @@ class Inimigo extends Jogador {
     this.vx = 2;
     this.d = 90;
     //this.sprite = loadImage('/assets/flandre.gif');
-    this.sprite = loadImage('/assets/remilia.gif');
+    this.sprite = loadImage('./assets/remilia.gif');
     this.vida = 750;
   }
   mostrar() {

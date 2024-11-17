@@ -27,7 +27,7 @@ class Jogador {
     this.ataques = [];
     this.vivo = true;
     //this.sprite = loadImage('/assets/cirno-flying.gif');
-    this.sprite = loadImage('/assets/marisa.gif');
+    this.sprite = loadImage('./assets/marisa.gif');
     this.inv = 0;
     this.explosivos = [];
     this.animation = [];
